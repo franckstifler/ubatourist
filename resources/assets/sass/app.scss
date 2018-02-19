@@ -1,0 +1,41 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap"
+//@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css";
+@import "node_modules/bootstrap/scss/bootstrap";
+
+#home-section {
+  position: relative;
+  background: url("../../../public/photos/rectorate.png") no-repeat;
+  background-size: cover;
+  margin-top: -22px;
+  min-height: 600px;
+  color: white;
+
+  .col-lg-12 {
+    padding-top: 105px;
+    h1 {
+      font-weight: 600;
+    }
+    p {
+      font-weight: 600;
+      padding-top: 100px;
+      color: yellow;
+    }
+  }
+
+  .overlay {
+    background-color: rgba(97, 211, 242, 0.16);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
